@@ -1,0 +1,60 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rtkit:x:499:497:RealtimeKit:/proc:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+apache:x:48:48:Apache:/var/www:/sbin/nologin
+saslauth:x:498:496:"Saslauthd user":/var/empty/saslauth:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+pulse:x:497:495:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat6:/sbin/nologin
+webalizer:x:67:67:Webalizer:/var/www/usage:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+mysql:x:500:501::/home/mysql:/bin/bash
+named:x:25:25:Named:/var/named:/sbin/nologin
+nginx:x:501:502::/home/nginx:/bin/bash
+up01:x:502:503::/home/up01:/bin/bash
+ldap:x:55:55:LDAP User:/var/lib/ldap:/sbin/nologin
+squid:x:23:23::/var/spool/squid:/sbin/nologin
+dovecot:x:97:97:Dovecot IMAP server:/usr/libexec/dovecot:/sbin/nologin
+dovenull:x:496:490:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+vmail:x:1000:1000::/home/vmail:/sbin/nologin
+postfix:x:89:89::/home/postfix:/bin/bash
+clamav:x:1002:1002:ClamAV User:/home/clamav:/bin/bash
+extmail:x:1003:1003::/home/extmail:/bin/bash
+hsqldb:x:96:96::/var/lib/hsqldb:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+virtual:x:1004:1004::/home/ftpv:/bin/bash
+up10:x:1005:1005::/home/up10:/bin/bash
+up11:x:1006:1006::/home/up11:/bin/bash
+up12:x:1007:1007::/home/up12:/bin/bash
+up13:x:1008:1008::/home/up13:/bin/bash
+up14:x:1009:1009::/home/up14:/bin/bash
+up15:x:1010:1010::/home/up15:/bin/bash
+up16:x:1011:1011::/home/up16:/bin/bash
+up17:x:1012:1012::/home/up17:/bin/bash
+up18:x:1013:1013::/home/up18:/bin/bash
+up19:x:1014:1014::/home/up19:/bin/bash
